@@ -1,0 +1,36 @@
+<html lang="es">
+    <head>
+       <title>Formulario HTML</title>
+       <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Ejemplo de formulario HTML</h1>
+        <form >
+            <h3>texto</h3>
+           <label for="nombre">Nombre Cliente:</label>
+           <input type="text" name="nombre" id="nombre" maxlength="50">
+           <h3>password</h3>
+           <label for="clave">Contraseña:</label>
+           <input type="password" name="clave" id="clave" maxlength="15">
+           <h3>Fecha</h3>
+           <label for="fecha">Fecha:</label>
+           <input type="date" name="fecha" id="fecha">
+           <h3>Fecha-Hora</h3>
+           <label for="fecha_hora">Fecha - Hora: </label>
+           <input type="datetime-local" name="fecha_hora" id="fceha_hora">
+           <h3>Spinner</h3>
+           <label for="spinner">Spinner: </label>
+           <input type="number" name="spinner" id="spinner" min="0" max="20" step="1">
+           <h3>Radio</h3>
+           <label for="genero">Genero: </label>
+           <input type="radio" name="genero" id="genero" value="F">Femenino
+           <input type="radio" name="genero" id="genero" value="M">Masculino
+           <h3>Lista de Despliegue</h3>
+           <select name="tipo_documento" id="tipo_documento">Tipo Documento
+               <option value="TI">Tarjeta de identidad</option>
+               <option value="CC">Cèdula de Ciudadanìa</option>
+               <option value="CE">Cèdula de Extranjerìa</option>
+            </select>
+        </form>
+    </body>
+</html>
